@@ -1,25 +1,30 @@
 ---
-title: "Min fina titel"
+title: "Me me me"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+Ytterligare en ny kurs och ännu mer roliga saker att lära sig! Now lets get cracking!
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?w=350" class="right" caption="Nature is life and sometimes we make toothpicks!"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Har en känsla av att det kommer bli en del me-sidor under årens lopp. Hur många sidor av en person finns det egentligen? Jag brukar se det som fyra; vad bara jag vet, vad bara andra vet, vad jag och andra vet och vad ingen vet.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Så nu kära läsare, vad kan vara intressant att veta om mig och framför allt vem är du själv?
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Ni har väl koll på mitt namn redan? Om inte så heter jag Stefan. Läser distans på BTH för att lära mig webbprogrmmering. Jag är just nu extra intresserad av hur vi kan designa saker för att utbilda och utveckla människan!
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Kan vi genom vår design få en användare att förstå hur jag ser på världen, eller rättare sagt hur ser den värld ut som finns "bakom" denna design? Varför skulle vi vilja göra en sådan sak? Rent krasst tänker jag att det är en av de viktiga delarna med den funktionella aspekten av design, dvs jag vill ju att du som surfar runt på denna sida skall förstå hur den fungerar så att du får ut största möjliga användning av den.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+Men det är så 2019 tänker jag! Det som vore riktigt häftigt är ifall vi lyckas designa något som ger dig som användare så pass stor förståelse av en sidas egen världsbild att du kan ge av dig själv till sidan på ett sätt där du medvetet är en del av evolutionen av sidan. Men vad är det för skillnad på det och påståendet i förra paragrafen? Helt befogad fråga, vad tänker du själv? Nä just det, jag har ju inte kommit så långt i min design, vi får se ifall det går bättre att ta hänsyn till din återkoppling på min nästa me-sida...
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Väl mött och surfa lugnt på de digitala vågorna!

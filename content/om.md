@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,19 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
-Om
+Om denna sida
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Denna sida är ett uttryck för det vi lär oss inom kursen design på BTHs program för webbprogrammering.
 
-Skriv några kloka ord om kursen?
+[FIGURE src=image/blad.jpg?w=300 class="left" caption="En fin bild som min sambo tagit."]
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+Likt frusna blad som står stilla i vinden kan design vara evig och överleva tiden.  
+En tavla av kaos som är ordnat efter regler blir tydlig när vi flyttar element som en gång var fasta.
+Huller om buller tycks allt ligga men i själv verket går vi från klarhet till klarhet.  
+Färgerna kan vara kalla men vi kanske vill förmedla en känslas av värme.  
+Designar vi naturen eller är det naturen som designar oss?
