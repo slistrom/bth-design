@@ -26,5 +26,5 @@ Denna sida är ett uttryck för det vi lär oss inom kursen design på BTHs prog
 Likt frusna blad som står stilla i vinden kan design vara evig och överleva tiden.  
 En tavla av kaos som är ordnat efter regler blir tydlig när vi flyttar element som en gång var fasta.
 Huller om buller tycks allt ligga men i själv verket går vi från klarhet till klarhet.  
-Färgerna kan vara kalla men vi kanske vill förmedla en känslas av värme.  
+Färgerna kan vara kalla medans vi kanske vill förmedla en känsla av värme.  
 Designar vi naturen eller är det naturen som designar oss?
