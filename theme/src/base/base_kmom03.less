@@ -1,10 +1,10 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@bgColorHtml: #fff;
+@bgColorHtml: #81a7f3;
 @bgColorBody: #fff;
 @colorBody: #333;
-@fontFamilyBody: serif;
+//@fontFamilyBody: serif;
 
 * {
     margin: 0;
@@ -22,7 +22,8 @@ body {
     padding: 0;
     color: @colorBody;
     background-color: @bgColorBody;
-    font: 100.01%/1 @fontFamilyBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    //font: 100.01%/1 @fontFamilyBody;
 }
 
 img {
@@ -33,3 +34,6 @@ p {
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();

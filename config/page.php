@@ -20,7 +20,9 @@ return [
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 //"css/dbwebb-se.min.css",
-                "css/kmom02.css",
+                //"css/kmom02.css",
+                //"css/kmom03.css",
+                "css/04_dark.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",

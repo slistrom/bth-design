@@ -1,0 +1,230 @@
+/**
+ * Layout for vgrid
+ */
+
+/**
+ * Variables
+ */
+ @bgColorFooter: #81a7f3;
+
+
+/**
+ * General layout
+ */
+
+.row {
+    #desinax-vgrid.row();
+    //background-color: #0f0;
+    margin-bottom: 12px;
+}
+
+
+ /* Container */
+ .outer-wrap {
+     //width: 100%;
+ }
+
+ .inner-wrap {
+     #desinax-vgrid.grid(1100px);
+     //background-color: #d8d8d9;
+     // max-width: 1100px;
+     // width: 80%;
+     //margin: 0 auto;
+ }
+
+// .inner-wrap-header,
+// .inner-wrap-footer {
+//     #desinax-vgrid.grid(100%);
+// }
+
+ /* Header */
+
+ .inner-wrap-header {
+     #desinax-vgrid.grid(100%);
+ }
+
+ .region-header-col-1,
+ .region-header-col-3 {
+     #desinax-vgrid.column(5);
+     // float: left;
+     // width: 20%;
+ }
+
+ .region-header-col-2 {
+     #desinax-vgrid.column(14);
+     // float: left;
+     // width: 60%;
+     // margin-right: 10px;
+ }
+
+ .vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+.region-flash {
+    #desinax-vgrid.column(@columns);
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+}
+
+ /* Main */
+
+ .inner-wrap-main {
+     //padding: 30px 0;
+     //.clearfix();
+ }
+
+ .inner-wrap-main {
+     //padding: 30px 0;
+     //overflow: auto;
+ }
+
+ .region-main {
+     #desinax-vgrid.column(@columns * 3 / 4);
+     #desinax-vgrid.push(2);
+     //padding: 10px;
+
+     &.has-sidebar {
+         #desinax-vgrid.push(0);
+         // width: 75%;
+         // float: left;
+     }
+
+     &.has-sidebar-right {
+         #desinax-vgrid.column(@columns * 3 / 4 - 1);
+     }
+
+     &.has-sidebar-left {
+         #desinax-vgrid.column(@columns * 3 / 4 - 2);
+     }
+
+     &.has-sidebar-left.has-sidebar-right {
+         #desinax-vgrid.column(@columns - 10);
+     }
+ }
+
+ .region-sidebar-left,
+ .region-sidebar-right {
+     #desinax-vgrid.column(@columns * 1 / 4);
+     // width: 25%;
+     // float: left;
+     //padding: 10px;
+ }
+
+ .region-sidebar-right,
+ .region-sidebar-left, {
+     #desinax-vgrid.push(1);
+}
+
+ .region-sidebar-left.has-sidebar-right,
+ .region-sidebar-right.has-sidebar-left {
+     #desinax-vgrid.column(@columns * 1 / 4 - 1);
+     // width: 20%;
+     // float: left;
+     //padding: 10px;
+ }
+
+ .next {
+     float: right;
+     text-align: right;
+ }
+
+.article {
+    //padding: 10px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 1000px) {
+    .region-main {
+        #desinax-vgrid.column(@columns);
+        //#desinax-vgrid.push(5);
+
+        &.has-sidebar-left {
+            #desinax-vgrid.column(@columns - 2);
+        }
+
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .region-main.has-sidebar-right {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-sidebar-right {
+        //display: none;
+        #desinax-vgrid.column(@columns);
+        #desinax-vgrid.push(0);
+   }
+}
+
+ /* Footer */
+ .footer-column {
+     #desinax-vgrid.column(@columns / 3);
+     //width: 33%;
+     //float: left;
+     padding: 5px;
+ }
+
+ .inner-wrap-footer {
+     background-color: @bgColorFooter;
+     //padding: 30px 0;
+ }
+
+ .site-footer {
+     #desinax-vgrid.column(@columns);
+     text-align: center;
+ }
+
+ .outer-wrap-footer,
+ .inner-wrap-footer {
+     background-color: @bgColorFooter;
+
+ }
+
+ /* Specific stuff */
+ .byline {
+     border: 1px solid black;
+     padding: 5px;
+     overflow: auto;
+     clear: both;
+ }
+
+ .byline img {
+     float: left;
+     margin-right: 10px;
+ }
+
+ .figure.right {
+     float: right;
+     padding: 5px;
+ }
+
+.figure.left {
+     float: left;
+     padding: 5px;
+ }
+
+ .site-logo {
+     display: none;
+ }

@@ -30,7 +30,7 @@
 }
 html {
   overflow-y: scroll;
-  background-color: #424242;
+  background-color: #fff;
 }
 body {
   margin: 0;
@@ -180,7 +180,7 @@ p {
 /**
  * Navbar
  */
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1150px) {
   .rm-desktop a {
     padding-left: 0.5em;
     padding-right: 0.5em;

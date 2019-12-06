@@ -15,7 +15,7 @@ Min me-sida i kursen design
 
 Ytterligare en ny kurs och ännu mer roliga saker att lära sig! Now lets get cracking!
 
-[FIGURE src="image/me.jpg?w=350" class="right" caption="Nature is life and sometimes we make toothpicks!"]
+[FIGURE src="image/me.jpg?w=350" class="right" caption="Nature is life and sometimes we make <br>toothpicks!"]
 
 Har en känsla av att det kommer bli en del me-sidor under årens lopp. Hur många sidor av en person finns det egentligen? Jag brukar se det som fyra; vad bara jag vet, vad bara andra vet, vad jag och andra vet och vad ingen vet.
 
