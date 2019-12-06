@@ -1,6 +1,10 @@
 Revision history
 ===============
 
+v4.0.0 (2019-12-06)
+
+* Done with [Kmom04](https://dbwebb.se/kurser/design-v2/kmom04) tasks and pushing to GitHub.
+
 v3.0.0 (2019-12-06)
 
 * Done with [Kmom03](https://dbwebb.se/uppgift/bygg-ett-tema-med-vertikalt-och-horisontellt-grid) tasks and pushing to GitHub.

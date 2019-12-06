@@ -1,0 +1,63 @@
+/**
+ * Sample of some self contained module. Start by defining the variables that
+ * the user can override and the defined the style.
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Comfortaa|Pacifico&display=swap');
+
+/**
+ * Variables
+ */
+
+ @bgColorHtml: #6808ff;
+ @bgColorBody: #000;
+ @colorBody: #000;
+ @bgColorFooter: #6808ff;
+
+ // Adapt the typographic grid
+ @fontFamilyHeadings:    @pacifico;
+ @fontFamilyBody:        @comfortaa; // "serif";
+ @fontFamilyCode:        @fontFamilyMonospace;
+
+ // Magic number and base fontsize
+ @magicNumber:  24px;  // 22px
+ @fontSizeBody: 18px;
+
+// Navbar colors
+@navbarItemBgColor: #ff0826;
+@navbarItemHoverBgColor: #ff0826;
+
+
+/**
+ * Style
+ */
+
+a {
+    color: #7aff14;
+}
+
+code {
+    background-color: #9c07e8;
+    border: 1px solid #9c07e8;
+}
+
+.region-main {
+    padding: 5px;
+}
+
+.inner-wrap-header {
+    //background-color: #9c07e8;
+    background-color: #ff0826;
+}
+
+.inner-wrap-main,
+.inner-wrap-flash,
+.inner-wrap-breadcrumb,
+.inner-wrap-flash-message {
+    background-color: #ef14ff;
+}
+
+.row {
+    margin-bottom: 0;
+    padding-bottom: 12px;
+}

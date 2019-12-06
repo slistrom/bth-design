@@ -1,0 +1,45 @@
+/**
+ * Sample of some self contained module. Start by defining the variables that
+ * the user can override and the defined the style.
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Alatsi|Lora&display=swap');
+
+/**
+ * Variables
+ */
+
+ @bgColorHtml: #000;
+ @bgColorBody: #000;
+ @colorBody: #ddd;
+ @bgColorFooter: #000;
+
+ // Adapt the typographic grid
+ @fontFamilyHeadings:   'Alatsi', sans-serif;
+ @fontFamilyBody:       @fontFamilyVerdana;
+ @fontFamilyCode:       @fontFamilyMonospace;
+
+ // Magic number and base fontsize
+ @magicNumber:  24px;  // 22px
+ @fontSizeBody: 18px;
+
+ // Navbar colors
+ @navbarItemBgColor: #000;
+ @navbarItemHoverBgColor: #000;
+
+/**
+ * Style
+ */
+
+a {
+    color: #ff4136;
+}
+
+code {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.byline {
+    border: 1px solid #ddd;
+}
