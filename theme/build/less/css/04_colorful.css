@@ -4801,7 +4801,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   display: block;
   text-decoration: none;
   white-space: nowrap;
-  padding: 1em;
+  padding: 0.5em;
   outline: none;
 }
 .rm-default ul {
@@ -5016,7 +5016,7 @@ body {
   padding: 0;
   color: #000;
   background-color: #000;
-  font: 18px/1.33333333 "Comfortaa", cursive;
+  font: 18px/1.33333333 'Comfortaa', cursive;
 }
 img {
   max-width: 100%;
@@ -5031,7 +5031,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5568,6 +5568,15 @@ hr::after {
   float: left;
   margin-right: 10px;
 }
+.blog-list-item {
+  overflow: auto;
+}
+.blog-post h2 {
+  clear: both;
+}
+.blog-post h3 {
+  clear: both;
+}
 .figure.right {
   float: right;
   padding: 5px;
@@ -5594,19 +5603,17 @@ hr::after {
 /**
  * Navbar
  */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1250px) {
   .rm-desktop a {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
   }
-}
-@media screen and (max-width: 850px) {
   .region-header-col-1,
   .region-header-col-3 {
-    width: 15%;
+    width: 10%;
   }
   .region-header-col-2 {
-    width: 70%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 730px) {
