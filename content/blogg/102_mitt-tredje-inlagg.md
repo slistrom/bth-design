@@ -5,8 +5,10 @@ category:
     - japan
 published: "2017-07-21"
 ---
+<DIV class="blogg">
 Tidens bro
 ==================================
+</DIV>
 
 Broar över vatten, broar mellan människor.
 

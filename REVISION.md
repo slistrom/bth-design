@@ -1,6 +1,10 @@
 Revision history
 ===============
 
+v6.0.0 (2019-12-20)
+
+* Done with [Kmom06](https://dbwebb.se/kurser/design-v2/kmom06) tasks and pushing to GitHub.
+
 v5.0.0 (2019-12-13)
 
 * Done with [Kmom05](https://dbwebb.se/kurser/design-v2/kmom05) tasks and pushing to GitHub.

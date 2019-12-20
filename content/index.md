@@ -10,8 +10,10 @@ views:
                 type: single
                 route: block/byline
 ---
+<DIV class="home">
 Min me-sida i kursen design
-=========================
+===========================
+</DIV>
 
 Ytterligare en ny kurs och ännu mer roliga saker att lära sig! Now lets get cracking!
 

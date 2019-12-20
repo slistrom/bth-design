@@ -1,7 +1,9 @@
 ---
 ---
+<DIV class="report">
 Kmom04 färgschema
 =========================
+</DIV>
 
 Denna rapport kommer utvärdera tre olika biltillverkares webbplatser och dokumentera deras färgpalett och typografi samt argumentera kring valet av färg kontra den känsla webbplatsen eventuellt vill signalera med sitt färgval.
 

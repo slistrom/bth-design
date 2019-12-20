@@ -5,8 +5,10 @@ category:
     - himlen
 published: "2012-03-02"
 ---
+<DIV class="blogg">
 Rengbågens guld
 ==================================
+</DIV>
 
 [FIGURE src="image/B-rainbow.jpg?w=200&crop-to-fit&area=25,25,25,25" class="right w33" alt="Rainbow"]
 

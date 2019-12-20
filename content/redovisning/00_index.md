@@ -1,6 +1,8 @@
 ---
 ---
+<DIV class="redovisa">
 Redovisningstexter
 =========================
+</DIV>
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/redovisning/00_index.md`.
+I menyn till vänster finns alla redovisningstexter som jag skrivit inom kursen design på programmet  webbprogrammering på Blekinge tekniska högskola.

@@ -5,8 +5,10 @@ category:
     - lek
 published: "2012-05-11"
 ---
+<DIV class="blogg">
 Katter, eller?
 ==================================
+</DIV>
 
 [FIGURE src="image/B-cat.jpg?w=200" class="left w33" alt="Cats"]
 

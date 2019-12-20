@@ -5025,6 +5025,9 @@ p {
   margin-top: 24px;
   margin-bottom: 24px;
 }
+a {
+  color: black;
+}
 h1,
 h2,
 h3,
@@ -5587,6 +5590,12 @@ hr::after {
 }
 .site-logo {
   display: none;
+}
+.clearboth {
+  clear: both;
+}
+.megaborder {
+  border: 10px solid red;
 }
 /**
  * Figure and figcaption for images and other media using figure/figcaption

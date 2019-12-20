@@ -1,7 +1,9 @@
 ---
 ---
+<DIV class="report">
 Kmom05 laddningstid
 =========================
+</DIV>
 
 Denna rapport kommer utvärdera och analysera tre olika politiska partiers webbplatser och dokumentera deras laddningstider samt argumentera kring valet av resurser och potentiella förbättringar som skulle kunna göras.
 

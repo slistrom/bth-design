@@ -1,0 +1,84 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #81a7f3;
+@bgColorBody: #fff;
+@colorBody: #333;
+//@fontFamilyBody: serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+    //font: 100.01%/1 @fontFamilyBody;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+a {
+    color: black;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+.breadcrumb-list ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline;
+}
+
+.breadcrumb-list ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb-list ul li::after {
+  content: " /";
+}
+
+.breadcrumb-list ul li:last-child::after {
+  content: "";
+}
+
+.breadcrumb-list ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.breadcrumb-list ul li a:hover {
+  text-decoration: underline;
+}
+
+.toc {
+    list-style: none;
+}
+
+.section-header {
+    font-weight: 700;
+    margin-top: @magicNumber;
+    margin-bottom: @magicNumber / 2;
+    border-bottom: 1px solid #eee;
+}
