@@ -112,6 +112,7 @@ Jag tycker alla tre webbplatser klarade av att leverera en funktionsduglig sida 
 Referenser
 -----------------------
 [1] [Google sheets med mätdata](https://docs.google.com/spreadsheets/d/1pJyawXcO14wmDpg-EQeDY6BpnXOxhuK7Or_zrrD8Hrg/edit?usp=sharing)
+[2] [Googles mätverktyg pagespeed](https://developers.google.com/speed/pagespeed/insights/)
 
 Övrigt
 -----------------------

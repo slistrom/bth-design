@@ -7,7 +7,7 @@ Kmom06 designprinciper
 
 Denna rapport förklarar mitt arbetet med uppgiften att skapa ett tema som fokuserar på olika designprinciper i [kursmoment 6](https://dbwebb.se/uppgift/anax-flat-tema-enligt-designprinciper).
 
-För att applicera detta tema på webbplatsen kan du klicka på följande [länk](http://www.student.bth.se/~stli19/dbwebb-kurser/design/me/redovisa/htdocs/rapport/designelement?style=kmom06-designprinciper).
+För att applicera detta tema på webbplatsen kan du klicka på följande [länk](http://www.student.bth.se/~stli19/dbwebb-kurser/design/me/redovisa/htdocs/rapport/designprinciper?style=kmom06-designprinciper).
 
 Urval
 -----------------------

@@ -4997,7 +4997,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   background-image: url("../img/magic-number-24px.png");
 }
 /**
- * Base style to affect HTML elements on a general scale.
+ * Base style to affect HTML elements in general.
  */
 /**
  * Base style to affect HTML elements on a general scale.
@@ -5592,6 +5592,9 @@ hr::after {
 .outer-wrap-footer,
 .inner-wrap-footer {
   background-color: #81a7f3;
+}
+.inner-wrap-header .row {
+  max-width: 100%;
 }
 /* Specific stuff */
 .byline {
